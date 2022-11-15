@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  contour:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.23.0
+    created: "2022-11-15T08:07:47.59519+01:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Contour is an open source Kubernetes ingress controller that works
+      by deploying the Envoy proxy as a reverse proxy and load balancer.
+    digest: 8987f755b72537104253c4a2f70c7b26921d127e96f7ec3befc414a7d9d9ecad
+    home: https://github.com/bitnami/charts/tree/main/bitnami/contour
+    icon: https://bitnami.com/assets/stacks/contour/img/contour-stack-220x234.png
+    keywords:
+    - ingress
+    - envoy
+    - contour
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: contour
+    sources:
+    - https://github.com/projectcontour/contour
+    - https://github.com/envoyproxy/envoy
+    - https://github.com/bitnami/containers/tree/main/bitnami/contour
+    - https://projectcontour.io
+    urls:
+    - https://neticdk.github.io/bitnami-charts/contour-10.1.0.tgz
+    version: 10.1.0
+generated: "2022-11-15T08:07:47.589931+01:00"
